@@ -1,0 +1,54 @@
+
+.btn1{
+	font-size: 16px;
+    text-align: center;
+	width: 120px;
+	font-family: Source Sans Pro,Arial,"sans-serif";
+}
+.btn-outline1 {
+	
+    display: inline-block;
+    border-radius: 3.5px;
+    border: 1px solid #e57373;
+    font-family: Source Sans Pro,Arial,"sans-serif";
+    transition-duration: 222ms;
+    background-color: transparent;
+	width: 120px;
+    height: 35px;
+    color: #e57373;
+    transition: all .5s;
+}
+
+.btn-primary1 .btn-outline1{
+    color:  #e57373;
+}
+
+.glyphicon-pushpin{
+	color: #e57373;
+}
+
+.header-nav-postad {
+    margin: -10px 0 3px 0;
+}
+ 
+.header-nav-postad:after, .header-nav-postad:before {
+    box-sizing: border-box;
+}
+
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-header-txt {
+    font-weight: bold;
+    font-size: 14px;
+}

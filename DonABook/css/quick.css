@@ -1,0 +1,19 @@
+
+
+.cd-trigger {
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  bottom: 170px;
+  left: 0;
+  background: BLACK;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #e57373;
+  opacity: 1;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: normal;
+}

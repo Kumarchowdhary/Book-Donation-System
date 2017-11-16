@@ -1,0 +1,39 @@
+$(document).ready(function(){
+	$("#ads").hide();
+	$("#notify").hide();
+	$("#fav").hide();
+	$("#msg").hide();
+	$("#cnt_opt").hide();
+	$("#ads_btn").click(function(){
+	   $("#notify").hide();
+	   $("#fav").hide();
+	   $("#msg").hide();
+	   $("#ads").show();
+	});
+	$("#ntf_btn").click(function(){
+	   $("#ads").hide();
+	   $("#fav").hide();
+	   $("#msg").hide();
+	   $("#notify").show();
+	});
+	$("#fvrt_btn").click(function(){
+	   $("#ads").hide();
+	   $("#notify").hide();
+	   $("#msg").hide();
+	   $("#fav").show();
+	});
+	$("#msgs_btn").click(function(){
+       $("#ads").hide();
+	   $("#notify").hide();
+	   $("#fav").hide();
+	   $("#msg").show();
+	});
+	$("#aprv_btn").click(function(){
+	   $("#cnt_opt").slideToggle("slow");
+	});
+	
+	$("#cncl_btn").click(function(){
+	   $("#cnt_opt").slideUp("slow");
+	});
+ 
+});
